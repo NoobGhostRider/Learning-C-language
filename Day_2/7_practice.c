@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int math,english,hindi,social,science;
-    char name[1000];
+    char name[25];
     float percentage;
     printf("Enter Student name : ");
     scanf("%s",&name);

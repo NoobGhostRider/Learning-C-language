@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include<math.h>
-#include<conio.h>
 int main(){
     int length , width , perimeter , area;
     printf("Enter the Length of Rectangle : ");
