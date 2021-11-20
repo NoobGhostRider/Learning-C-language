@@ -7,5 +7,4 @@ int main(){
         printf("The Natural Number before n number : %d \n",j);
         j++;
     }while(j<=i);
-    
 }
