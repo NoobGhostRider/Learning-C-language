@@ -13,7 +13,7 @@ int main(){
     {
         printf("Triangle is Equilateral\n");   
     }
-    else if (((first_side==second_side)||(first_side==third_side))&&((first_side!=third_side)||(first_side!=second_side)))
+    else if (((first_side==second_side)||(first_side==third_side)||(second_side==third_side))&&((first_side!=third_side)||(first_side!=second_side)||(second_side!=third_side)))
     {
         printf("Triangle is Isoceles\n");
     }
