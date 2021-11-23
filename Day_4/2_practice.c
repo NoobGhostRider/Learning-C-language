@@ -5,15 +5,15 @@ int main(){
     char character;
     printf("Enter The Character : ");
     scanf("%c",&character);
-    if ((character>'a')&&(character<'z'))
+    if ((character>='a')&&(character<='z'))
     {
         printf("Character is an alphabet\n");
     }
-    else if ((character>'A')&&(character<'Z'))
+    else if ((character>='A')&&(character<='Z'))
     {
         printf("Character is an alphabet\n");
     }
-    else if ((character>'0')&&(character<'9'))
+    else if ((character>='0')&&(character<='9'))
     {
         printf("Character is an Number\n");
     }
