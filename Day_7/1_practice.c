@@ -1,7 +1,7 @@
 //WAP to count no. Of digits in a number.
 #include<stdio.h>
 int main(){
-    int count=0,number,digit,rem;
+    int count=0,number,rem;
     printf("Enter The Number : ");
     scanf("%d",&number);
     while(number>0)
